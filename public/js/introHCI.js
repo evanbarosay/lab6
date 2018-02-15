@@ -28,3 +28,13 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 }
+function preventDefault() {
+	$('.project a').click(addProjectDetails.preventDefault){
+	$.get("http://URL/1", callBackFn);
+	console.log("URL" + idNumber);
+	$.post("http://URL", {"json":"json"}, callBackFn)
+
+	}
+
+
+}
